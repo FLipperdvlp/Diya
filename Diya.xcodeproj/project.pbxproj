@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F799DDA72DBEB69A00ABD97B /* DiyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDA62DBEB69A00ABD97B /* DiyaApp.swift */; };
+		F799DDA92DBEB69A00ABD97B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDA82DBEB69A00ABD97B /* ContentView.swift */; };
+		F799DDAB2DBEB69D00ABD97B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F799DDAA2DBEB69D00ABD97B /* Assets.xcassets */; };
+		F799DDAE2DBEB69D00ABD97B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F799DDAD2DBEB69D00ABD97B /* Preview Assets.xcassets */; };
+		F799DDB82DBEB69E00ABD97B /* DiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDB72DBEB69E00ABD97B /* DiyaTests.swift */; };
+		F799DDC22DBEB69E00ABD97B /* DiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDC12DBEB69E00ABD97B /* DiyaUITests.swift */; };
+		F799DDC42DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDC32DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F799DDB42DBEB69E00ABD97B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F799DD9B2DBEB69A00ABD97B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F799DDA22DBEB69A00ABD97B;
+			remoteInfo = Diya;
+		};
+		F799DDBE2DBEB69E00ABD97B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F799DD9B2DBEB69A00ABD97B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F799DDA22DBEB69A00ABD97B;
+			remoteInfo = Diya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F799DDA32DBEB69A00ABD97B /* Diya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F799DDA62DBEB69A00ABD97B /* DiyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaApp.swift; sourceTree = "<group>"; };
+		F799DDA82DBEB69A00ABD97B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F799DDAA2DBEB69D00ABD97B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F799DDAD2DBEB69D00ABD97B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F799DDB32DBEB69E00ABD97B /* DiyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F799DDB72DBEB69E00ABD97B /* DiyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaTests.swift; sourceTree = "<group>"; };
+		F799DDBD2DBEB69E00ABD97B /* DiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F799DDC12DBEB69E00ABD97B /* DiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaUITests.swift; sourceTree = "<group>"; };
+		F799DDC32DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F799DDA02DBEB69A00ABD97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDB02DBEB69E00ABD97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDBA2DBEB69E00ABD97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F799DD9A2DBEB69A00ABD97B = {
+			isa = PBXGroup;
+			children = (
+				F799DDA52DBEB69A00ABD97B /* Diya */,
+				F799DDB62DBEB69E00ABD97B /* DiyaTests */,
+				F799DDC02DBEB69E00ABD97B /* DiyaUITests */,
+				F799DDA42DBEB69A00ABD97B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F799DDA42DBEB69A00ABD97B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F799DDA32DBEB69A00ABD97B /* Diya.app */,
+				F799DDB32DBEB69E00ABD97B /* DiyaTests.xctest */,
+				F799DDBD2DBEB69E00ABD97B /* DiyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F799DDA52DBEB69A00ABD97B /* Diya */ = {
+			isa = PBXGroup;
+			children = (
+				F799DDA62DBEB69A00ABD97B /* DiyaApp.swift */,
+				F799DDA82DBEB69A00ABD97B /* ContentView.swift */,
+				F799DDAA2DBEB69D00ABD97B /* Assets.xcassets */,
+				F799DDAC2DBEB69D00ABD97B /* Preview Content */,
+			);
+			path = Diya;
+			sourceTree = "<group>";
+		};
+		F799DDAC2DBEB69D00ABD97B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F799DDAD2DBEB69D00ABD97B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F799DDB62DBEB69E00ABD97B /* DiyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F799DDB72DBEB69E00ABD97B /* DiyaTests.swift */,
+			);
+			path = DiyaTests;
+			sourceTree = "<group>";
+		};
+		F799DDC02DBEB69E00ABD97B /* DiyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F799DDC12DBEB69E00ABD97B /* DiyaUITests.swift */,
+				F799DDC32DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift */,
+			);
+			path = DiyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F799DDA22DBEB69A00ABD97B /* Diya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F799DDC72DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "Diya" */;
+			buildPhases = (
+				F799DD9F2DBEB69A00ABD97B /* Sources */,
+				F799DDA02DBEB69A00ABD97B /* Frameworks */,
+				F799DDA12DBEB69A00ABD97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diya;
+			productName = Diya;
+			productReference = F799DDA32DBEB69A00ABD97B /* Diya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F799DDB22DBEB69E00ABD97B /* DiyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F799DDCA2DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "DiyaTests" */;
+			buildPhases = (
+				F799DDAF2DBEB69E00ABD97B /* Sources */,
+				F799DDB02DBEB69E00ABD97B /* Frameworks */,
+				F799DDB12DBEB69E00ABD97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F799DDB52DBEB69E00ABD97B /* PBXTargetDependency */,
+			);
+			name = DiyaTests;
+			productName = DiyaTests;
+			productReference = F799DDB32DBEB69E00ABD97B /* DiyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F799DDBC2DBEB69E00ABD97B /* DiyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F799DDCD2DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "DiyaUITests" */;
+			buildPhases = (
+				F799DDB92DBEB69E00ABD97B /* Sources */,
+				F799DDBA2DBEB69E00ABD97B /* Frameworks */,
+				F799DDBB2DBEB69E00ABD97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F799DDBF2DBEB69E00ABD97B /* PBXTargetDependency */,
+			);
+			name = DiyaUITests;
+			productName = DiyaUITests;
+			productReference = F799DDBD2DBEB69E00ABD97B /* DiyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F799DD9B2DBEB69A00ABD97B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F799DDA22DBEB69A00ABD97B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F799DDB22DBEB69E00ABD97B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F799DDA22DBEB69A00ABD97B;
+					};
+					F799DDBC2DBEB69E00ABD97B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F799DDA22DBEB69A00ABD97B;
+					};
+				};
+			};
+			buildConfigurationList = F799DD9E2DBEB69A00ABD97B /* Build configuration list for PBXProject "Diya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F799DD9A2DBEB69A00ABD97B;
+			productRefGroup = F799DDA42DBEB69A00ABD97B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F799DDA22DBEB69A00ABD97B /* Diya */,
+				F799DDB22DBEB69E00ABD97B /* DiyaTests */,
+				F799DDBC2DBEB69E00ABD97B /* DiyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F799DDA12DBEB69A00ABD97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799DDAE2DBEB69D00ABD97B /* Preview Assets.xcassets in Resources */,
+				F799DDAB2DBEB69D00ABD97B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDB12DBEB69E00ABD97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDBB2DBEB69E00ABD97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F799DD9F2DBEB69A00ABD97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799DDA92DBEB69A00ABD97B /* ContentView.swift in Sources */,
+				F799DDA72DBEB69A00ABD97B /* DiyaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDAF2DBEB69E00ABD97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799DDB82DBEB69E00ABD97B /* DiyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F799DDB92DBEB69E00ABD97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F799DDC22DBEB69E00ABD97B /* DiyaUITests.swift in Sources */,
+				F799DDC42DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F799DDB52DBEB69E00ABD97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F799DDA22DBEB69A00ABD97B /* Diya */;
+			targetProxy = F799DDB42DBEB69E00ABD97B /* PBXContainerItemProxy */;
+		};
+		F799DDBF2DBEB69E00ABD97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F799DDA22DBEB69A00ABD97B /* Diya */;
+			targetProxy = F799DDBE2DBEB69E00ABD97B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F799DDC52DBEB69E00ABD97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F799DDC62DBEB69E00ABD97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F799DDC82DBEB69E00ABD97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.Diya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F799DDC92DBEB69E00ABD97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Diya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.Diya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F799DDCB2DBEB69E00ABD97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.DiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Diya";
+			};
+			name = Debug;
+		};
+		F799DDCC2DBEB69E00ABD97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.DiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Diya";
+			};
+			name = Release;
+		};
+		F799DDCE2DBEB69E00ABD97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.DiyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diya;
+			};
+			name = Debug;
+		};
+		F799DDCF2DBEB69E00ABD97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Diya.DiyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F799DD9E2DBEB69A00ABD97B /* Build configuration list for PBXProject "Diya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799DDC52DBEB69E00ABD97B /* Debug */,
+				F799DDC62DBEB69E00ABD97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F799DDC72DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "Diya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799DDC82DBEB69E00ABD97B /* Debug */,
+				F799DDC92DBEB69E00ABD97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F799DDCA2DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "DiyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799DDCB2DBEB69E00ABD97B /* Debug */,
+				F799DDCC2DBEB69E00ABD97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F799DDCD2DBEB69E00ABD97B /* Build configuration list for PBXNativeTarget "DiyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F799DDCE2DBEB69E00ABD97B /* Debug */,
+				F799DDCF2DBEB69E00ABD97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F799DD9B2DBEB69A00ABD97B /* Project object */;
+}
