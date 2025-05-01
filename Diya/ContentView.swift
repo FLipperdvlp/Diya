@@ -1,7 +1,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedButtonIndex: Int? = nil
     @State private var animateGradient = false
+    
+    let defaultImages = ["icon", "Doc", "bold", "Man"]
+    let activeImages = ["icon_active", "Doc_active", "bold_active", "Man_active"]
+    let buttonTitles = ["Стрiчка", "Документи", "Сервiси", "Меню"]
+    
     var body: some View {
         ZStack {
             LinearGradient(
@@ -26,11 +32,10 @@ struct ContentView: View {
             HStack(spacing: 40){
                 //--------------Button1------------------------
                 Button(action: {
-                    // действие для первой кнопки
-                    print("Button 1 tapped")
+                    selectedButtonIndex = 0
                 }) {
                     VStack{
-                        Image("icon")
+                        Image(selectedButtonIndex == 0 ? activeImages[0] : defaultImages[0])
                             .resizable()
                             .scaledToFit()
                             .frame(width: 29, height: 29)
@@ -43,14 +48,13 @@ struct ContentView: View {
                 }
                 //--------------Button2------------------------
                 Button(action: {
-                    // действие для первой кнопки
-                    print("Button 1 tapped")
+                    selectedButtonIndex = 1
                 }) {
                     VStack{
-                        Image("Doc")
+                        Image(selectedButtonIndex == 1 ? activeImages[1] : defaultImages[1])
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 25, height: 25)
+                            .frame(width: 28, height: 28)
                             .foregroundColor(.white)
                         Text("Документи")
                             .font(.caption)
@@ -61,14 +65,13 @@ struct ContentView: View {
                 }
                 //--------------Button3------------------------
                 Button(action: {
-                    // действие для первой кнопки
-                    print("Button 1 tapped")
+                    selectedButtonIndex = 2
                 }) {
                     VStack{
-                        Image("bold")
+                        Image(selectedButtonIndex == 2 ? activeImages[2] : defaultImages[2])
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 25, height: 25)
+                            .frame(width: 28, height: 28)
                             .foregroundColor(.white)
 //                            .cornerRadius(5)
                         Text("Сервiси")
@@ -80,11 +83,10 @@ struct ContentView: View {
                 }
                 //--------------Button4------------------------
                 Button(action: {
-                    // действие для первой кнопки
-                    print("Button 1 tapped")
+                    selectedButtonIndex = 3
                 }) {
                     VStack{
-                        Image("Man")
+                        Image(selectedButtonIndex == 3 ? activeImages[3] : defaultImages[3])
                             .resizable()
                             .scaledToFit()
                             .frame(width: 28, height: 28)
