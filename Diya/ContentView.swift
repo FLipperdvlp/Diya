@@ -12,13 +12,29 @@ struct ContentView: View {
         ZStack {
             LinearGradient(
                 colors: [
-                    animateGradient ? Color(red: 135/255, green: 206/255, blue: 235/255)/*blue*/ :/**/ Color(red: 190/255, green: 228/255, blue: 208/255)/*green*/,
-                    animateGradient ? Color(red: 198/255, green: 142/255, blue: 253/255)/*purple*/ : Color(red: 135/255, green: 206/255, blue: 235/255)/*blue*/
-                    //Color.white.opacity(0.8)
+                    animateGradient ? Color(red: 135/255, green: 206/255, blue: 235/255) : Color(red: 190/255, green: 228/255, blue: 208/255),
+                    animateGradient ? Color(red: 198/255, green: 142/255, blue: 253/255) : Color(red: 135/255, green: 206/255, blue: 235/255)
                 ],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
+            RoundedRectangle(cornerRadius: 20)
+                .fill(Color.white.opacity(0.25))
+                .frame(width: 325, height: 480)
+                .overlay(
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("єДокумент")
+                            .font(.title)
+                            .bold()
+                            .foregroundColor(.black)
+                            .padding(.top, 16)
+                            .padding(.leading)
+
+                        Spacer()
+                    }
+                        .padding(.top, 15)
+                        .padding(.leading, -150)
+                )
             .opacity(0.8)
             .ignoresSafeArea()
             .animation(.easeInOut(duration: 3).repeatForever(autoreverses: true), value: animateGradient)
@@ -27,6 +43,7 @@ struct ContentView: View {
             }
             
         }
+        //Buttons
         VStack{
             //Spacer()
             HStack(spacing: 40){
