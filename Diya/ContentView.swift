@@ -20,21 +20,51 @@ struct ContentView: View {
             )
             RoundedRectangle(cornerRadius: 20)
                 .fill(Color.white.opacity(0.25))
-                .frame(width: 325, height: 480)
+                .frame(width: 325, height: 500)
                 .overlay(
-                    VStack(alignment: .leading, spacing: 12) {
+                    ZStack{
+                    VStack(spacing: 8) {
                         Text("єДокумент")
-                            .font(.title)
+                            .font(.system(size: 24))
                             .bold()
                             .foregroundColor(.black)
-                            .padding(.top, 16)
-                            .padding(.leading)
-
+                            .padding(.top, 25)
+                            .padding(.leading, -145)
+                        Spacer()
+                        Image("MyPhoto")
+                            .resizable()
+                            .frame(width: 140, height: 195)
+                            .padding(.top, -425)
+                            .padding(.leading, -145)
+                    }
+                        VStack(alignment: .leading, spacing: 0){
+                            Text("Дата")
+                                .font(.system(size: 15))
+                                .foregroundColor(.black)
+                                .padding(.top, -171)
+                                .padding(.leading, 50)
+                            Text("народження:")
+                                .font(.system(size: 15))
+                                .foregroundColor(.black)
+                                .padding(.top, -155)
+                                .padding(.leading, 50)
+                            Text("22.11.2006")
+                                .font(.system(size: 12))
+                                .foregroundColor(.black)
+                                .padding(.top, -125)
+                                .padding(.leading, 50)
+                        }
+                        .padding(.leading)
+                        .padding(.leading, 45)
                         Spacer()
                     }
-                        .padding(.top, 15)
-                        .padding(.leading, -150)
                 )
+//            Image("MyPhoto")
+//                .resizable()
+//                .frame(width: 140, height: 195)
+//                .padding(.top, -205)
+//                .padding(.leading, -100)
+
             .opacity(0.8)
             .ignoresSafeArea()
             .animation(.easeInOut(duration: 3).repeatForever(autoreverses: true), value: animateGradient)
@@ -129,3 +159,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+//Created by a group of anonymous fans of the group fsociety :)
+//Are you a one or are you a zero ?

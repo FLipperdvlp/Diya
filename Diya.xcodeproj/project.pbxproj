@@ -14,6 +14,10 @@
 		F799DDB82DBEB69E00ABD97B /* DiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDB72DBEB69E00ABD97B /* DiyaTests.swift */; };
 		F799DDC22DBEB69E00ABD97B /* DiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDC12DBEB69E00ABD97B /* DiyaUITests.swift */; };
 		F799DDC42DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799DDC32DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift */; };
+		F7DC0EE62DCBF78A002CD7B9 /* e-Ukraine-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7DC0EE52DCBF789002CD7B9 /* e-Ukraine-Thin.otf */; };
+		F7DC0EE72DCBF797002CD7B9 /* e-Ukraine-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7DC0EE52DCBF789002CD7B9 /* e-Ukraine-Thin.otf */; };
+		F7DC0EE82DCBF797002CD7B9 /* e-Ukraine-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7DC0EE52DCBF789002CD7B9 /* e-Ukraine-Thin.otf */; };
+		F7DC0F212DCBFCBC002CD7B9 /* SwiftUI+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC0F202DCBFCBC002CD7B9 /* SwiftUI+Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,9 @@
 		F799DDBD2DBEB69E00ABD97B /* DiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F799DDC12DBEB69E00ABD97B /* DiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaUITests.swift; sourceTree = "<group>"; };
 		F799DDC32DBEB69E00ABD97B /* DiyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7DC0EE52DCBF789002CD7B9 /* e-Ukraine-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "e-Ukraine-Thin.otf"; path = "../../../e-Ukraine-Thin.otf"; sourceTree = "<group>"; };
+		F7DC0F1F2DCBFBF0002CD7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7DC0F202DCBFCBC002CD7B9 /* SwiftUI+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+Font.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +101,13 @@
 		F799DDA52DBEB69A00ABD97B /* Diya */ = {
 			isa = PBXGroup;
 			children = (
+				F7DC0F1F2DCBFBF0002CD7B9 /* Info.plist */,
+				F7DC0EE52DCBF789002CD7B9 /* e-Ukraine-Thin.otf */,
 				F799DDA62DBEB69A00ABD97B /* DiyaApp.swift */,
 				F799DDA82DBEB69A00ABD97B /* ContentView.swift */,
 				F799DDAA2DBEB69D00ABD97B /* Assets.xcassets */,
 				F799DDAC2DBEB69D00ABD97B /* Preview Content */,
+				F7DC0F202DCBFCBC002CD7B9 /* SwiftUI+Font.swift */,
 			);
 			path = Diya;
 			sourceTree = "<group>";
@@ -232,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F799DDAE2DBEB69D00ABD97B /* Preview Assets.xcassets in Resources */,
+				F7DC0EE62DCBF78A002CD7B9 /* e-Ukraine-Thin.otf in Resources */,
 				F799DDAB2DBEB69D00ABD97B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DC0EE72DCBF797002CD7B9 /* e-Ukraine-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DC0EE82DCBF797002CD7B9 /* e-Ukraine-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DC0F212DCBFCBC002CD7B9 /* SwiftUI+Font.swift in Sources */,
 				F799DDA92DBEB69A00ABD97B /* ContentView.swift in Sources */,
 				F799DDA72DBEB69A00ABD97B /* DiyaApp.swift in Sources */,
 			);
@@ -425,6 +439,7 @@
 				DEVELOPMENT_TEAM = ZV65V8HUX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diya/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +469,7 @@
 				DEVELOPMENT_TEAM = ZV65V8HUX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diya/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
