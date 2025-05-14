@@ -34,25 +34,62 @@ struct ContentView: View {
                         Image("MyPhoto")
                             .resizable()
                             .frame(width: 140, height: 195)
-                            .padding(.top, -425)
+                            .padding(.top, -410)
                             .padding(.leading, -145)
+                        //Spacer()
+                        Text("Ренкас")
+                            .font(.system(size: 27))
+                            .foregroundColor(.black)
+                            .padding(.leading, -145)
+                            .padding(.top, -100)
+                        Text("Глiб")
+                            .font(.system(size: 27))
+                            .foregroundColor(.black)
+                            .padding(.leading, -145)
+                            .padding(.top, -77)
+                        Text("Сергiйович")
+                            .font(.system(size: 27))
+                            .foregroundColor(.black)
+                            .padding(.leading, -145)
+                            .padding(.top, -55)
+                        MovingTextView(text: "Ой у лузі червона калина похилилася, чогось наша славна Україна зажурилася. А ми тую червону калину підіймемо, а ми нашу славну Україну, гей, гей, розвеселимо!Документ дiє пiд час воєнного стану.")
+                            .frame(height: 20) // Тонкая строка
+                            .padding(.leading, -145)
+                            .padding(.top, -200)
+                            .background(
+                                LinearGradient(
+                                    gradient: Gradient(colors: [.green, .mint, .blue]),
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
                     }
                         VStack(alignment: .leading, spacing: 0){
                             Text("Дата")
-                                .font(.system(size: 15))
+                                .font(.system(size: 17))
                                 .foregroundColor(.black)
                                 .padding(.top, -171)
-                                .padding(.leading, 50)
+                                .padding(.leading, 55)
                             Text("народження:")
-                                .font(.system(size: 15))
+                                .font(.system(size: 17))
                                 .foregroundColor(.black)
                                 .padding(.top, -155)
-                                .padding(.leading, 50)
+                                .padding(.leading, 55)
                             Text("22.11.2006")
-                                .font(.system(size: 12))
+                                .font(.system(size: 15))
                                 .foregroundColor(.black)
                                 .padding(.top, -125)
-                                .padding(.leading, 50)
+                                .padding(.leading, 55)
+                            Text("РНОКПП:")
+                                .font(.system(size: 17))
+                                .foregroundColor(.black)
+                                .padding(.top, -93)
+                                .padding(.leading, 55)
+                            Text("3977310633")
+                                .font(.system(size: 15))
+                                .foregroundColor(.black)
+                                .padding(.top, -67)
+                                .padding(.leading, 55)
                         }
                         .padding(.leading)
                         .padding(.leading, 45)
@@ -153,6 +190,29 @@ struct ContentView: View {
             
         }
         .ignoresSafeArea()
+    }
+}
+
+struct MovingTextView: View{
+    let text: String
+    @State private var offset: CGFloat = 0
+    let speed: Double = 30
+    
+    
+    var body: some View {
+        GeometryReader { geo in
+            Text(text)
+                .foregroundColor(.black)
+                .font(.system(size: 14))
+                .offset(x: offset)
+                .onAppear {
+                    let textWidth = geo.size.width * 2
+                    withAnimation(Animation.linear(duration: 10).repeatForever(autoreverses: false)) {
+                        offset = -textWidth
+                    }
+                }
+        }
+        .clipped()
     }
 }
 
